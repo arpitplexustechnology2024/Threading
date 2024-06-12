@@ -9,4 +9,7 @@ import UIKit
 
 class SecondCollectionViewCell: UICollectionViewCell {
     
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
 }

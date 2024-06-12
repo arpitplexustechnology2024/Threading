@@ -16,6 +16,8 @@
 		BDF578E42C18CD1F00458566 /* ThreadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF578E32C18CD1F00458566 /* ThreadingTests.swift */; };
 		BDF578EE2C18CD1F00458566 /* ThreadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF578ED2C18CD1F00458566 /* ThreadingUITests.swift */; };
 		BDF578F02C18CD1F00458566 /* ThreadingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF578EF2C18CD1F00458566 /* ThreadingUITestsLaunchTests.swift */; };
+		BDF578FD2C1901C600458566 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF578FC2C1901C600458566 /* SecondViewController.swift */; };
+		BDF578FF2C19022A00458566 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF578FE2C19022A00458566 /* SecondCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BDF578E92C18CD1F00458566 /* ThreadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF578ED2C18CD1F00458566 /* ThreadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadingUITests.swift; sourceTree = "<group>"; };
 		BDF578EF2C18CD1F00458566 /* ThreadingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF578FC2C1901C600458566 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BDF578FE2C19022A00458566 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				BDF578CE2C18CD1D00458566 /* SceneDelegate.swift */,
 				BDF578D02C18CD1D00458566 /* ViewController.swift */,
 				BDF578D22C18CD1D00458566 /* Main.storyboard */,
+				BDF578FE2C19022A00458566 /* SecondCollectionViewCell.swift */,
+				BDF578FC2C1901C600458566 /* SecondViewController.swift */,
 				BDF578D52C18CD1F00458566 /* Assets.xcassets */,
 				BDF578D72C18CD1F00458566 /* LaunchScreen.storyboard */,
 				BDF578DA2C18CD1F00458566 /* Info.plist */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF578FD2C1901C600458566 /* SecondViewController.swift in Sources */,
 				BDF578D12C18CD1D00458566 /* ViewController.swift in Sources */,
+				BDF578FF2C19022A00458566 /* SecondCollectionViewCell.swift in Sources */,
 				BDF578CD2C18CD1D00458566 /* AppDelegate.swift in Sources */,
 				BDF578CF2C18CD1D00458566 /* SceneDelegate.swift in Sources */,
 			);
